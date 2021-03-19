@@ -245,11 +245,17 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(/*Your Code Here*/){
-  /*Your Code Here*/
-}
+function get20s(/*array*/){
+//   let nineteenthCenturyArtists = [];
+//   for(let i = 0; i < array.length; i++){
+//     nineteenthCenturyArtists = parseInt()
+//     if(array[i]["years"](1900 <= thenumber && thenumber <= 2000){
+//        nineteenthCenturyArtists.push(array[i]);
+//      }
+//   }
+// }
 
-
+// console.log(get20s(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
@@ -286,15 +292,15 @@ Example: addArtist(artists) should return the artists array with the above objec
 function addArtist(array){
     array.push({ 
       "id": 20,
-      "name": "Your Name Here", 
-      "years": "Your Birth Year - current day",
+      "name": "Jasmine Lane-Garcia", 
+      "years": "1995 - 2021",
       "genre": "Web Design", 
-      "nationality": "Your Nationality Here",
-      "bio": "Add 1-2 sentences (or use lorem ipsum)"});
+      "nationality": "American",
+      "bio": "lorem ipsum"});
       return array;
 }
 
-console.log(addArtist(artists));
+console.log('Task 6:', addArtist(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -303,17 +309,16 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(array){
-    let moreThanOneHundred = [];
-    for(let i = 0; i < array.length; i++){
-    if(array[i]["paintings"] > 100){
-    moreThanOneHundred.push(array[i])};
-    }
-    moreThanOneHundred.map(item);
-    return item["name"];
-}
+function lotsOfArt(/*array*/){
+//     let moreThanOneHundred = [];
+//     for(let i = 0; i < array.length; i++){
+//     if(array[i]["paintings"] > 100){
+//     moreThanOneHundred.push(array[i]["name"])};
+//     }
+//     return moreThanOneHundred.map(item => item["name"]);
+// }
 
-console.length('Task 7:', lotsOfArt(artists));
+// console.length('Task 7:', lotsOfArt(artists));
 
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
